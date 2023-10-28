@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".institute_insert"
+    android:orientation="vertical"
+    android:background="@drawable/main_temp_grade">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register your Institute"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Institute name"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:id="@+id/institute_name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address of your Institute"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:id="@+id/institute_address"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact number"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:id="@+id/institute_phone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website"
+        android:gravity="center"
+        android:inputType="textWebEmailAddress"
+        android:layout_margin="5dp"
+        android:id="@+id/institute_website"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitute"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/institute_longi"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitute"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:layout_margin="5dp"
+        android:id="@+id/institute_lati"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Joining"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:inputType="date"
+        android:id="@+id/institute_date"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course "
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:id="@+id/institute_course"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:id="@+id/institute_description"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#00BCD4"
+        android:text="submit"
+        android:onClick="addInstitute"
+        />
+
+
+</LinearLayout>
