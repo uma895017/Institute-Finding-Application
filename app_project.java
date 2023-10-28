@@ -45,7 +45,7 @@ EditText et11;
     public void search(View view){
         arrayList=new ArrayList<>();
         String et111=et11.getText().toString();
-        String url = "http://192.168.1.3/Crud/project.php?sel="+et111;
+        String url = "http://Your IP Address/Crud/project.php?sel="+et111;
         StringRequest
                 stringRequest
                 = new StringRequest(
